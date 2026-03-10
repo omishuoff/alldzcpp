@@ -24,12 +24,12 @@ int main() {
     int size = 2;
     Student* students = new Student[size];
 
-    students[0] = { "Ivanov", "A-1", {5, 5, 5, 4, 5} };
+    students[0] = { "Yudin", "C-2", {5, 5, 5, 4, 5} };
     students[1] = { "Petrov", "A-1", {2, 3, 2, 5, 3} };
 
     students = resizeArray(students, size, 3);
     size = 3;
-    students[2] = { "Sidorov", "B-2", {4, 4, 4, 4, 4} };
+    students[2] = { "Mavridi", "B-2", {4, 4, 4, 4, 4} };
 
     cout << "Excellent:" << endl;
     for (int i = 0; i < size; i++) {
